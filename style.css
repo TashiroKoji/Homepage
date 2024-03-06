@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "fontB";
+    font-family: "fontBd";
     src: url("LINESeedJP_20230831/Web/WOFF/LINESeedJP_OTF_Bd.woff")
     format("woff");
   }
@@ -18,34 +18,46 @@
     src: url("LINESeedJP_20230831/Web/WOFF/LINESeedJP_OTF_Th.woff")
     format("woff");
   }
-@media (color-scheme: light) {
-  /* ここに、ライト（白）に対するスタイルを記述します*/
-  body {
-    background-color: #eee; /* white に近い色 */
-    color: #111;            /* black に近い色 */
-  }
-}
-@media (color-scheme: dark) {
-    body {
-      background-color: #000;
-      color: #fff;
-    }
-  }
-  
+
 body{
     margin: 60px;
-    font-family: "fontEb";
     background: white;
 }
 h1{
     color:black;
+    font-family: "fontEb";
     font-size: 50px;
+
     text-shadow: 1px 1px 2px whitesmoke;
+}
+h2{
+  color:brown;
+  font-family: "fontBd";
 }
 
 p{
     
     color: black;
+    font-family: "fontRg";
     font-size: 18px;
     line-height: 1.8;
+}
+footer { 
+  font-family: "fontTh";
+  text-align: center;
+  position: absolute;
+}
+
+
+.paragraph{
+  text-align: center;
+  margin: 16px auto;
+  display: block;
+}
+.paragraph p{
+  text-align: left;
+  display: inline-block;
+}
+.mb2{
+  margin-bottom: 1em;
 }
